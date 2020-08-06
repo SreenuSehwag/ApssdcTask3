@@ -1,50 +1,33 @@
 import React from 'react';
-import logo from './logo.svg';
+// import logo from './logo.svg';
+import profileImage from './img/mysticker.png';
 import './App.css';
-import data from './data/data.json';
+import './resumeex.css';
 
 function App() {
   return (
-    <div className="App">
-    {/*<h1> Sreenu Reddy</h1>*/}
-     { /*<header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>*/}
-      <CardView></CardView>
+    <div class="h1">
+      Resume
     </div>
-  );
-}
-
-
-let CardView=()=>{
-  let profile = data.details;
-  console.log(profile);
-  return(
-
-  <div className="row justify-content-center">
-     {profile.map((cardsData)=>(
-        <div className="col-lg-4 col-md-4 col-sm-10 mt-2">
-            <div className='card'>
-              <div className="card-body">
-                <img src={female} alt="profile pic" style={{width:"50%"}}>
-                <h1>{cardsData.profile.name}</h1
-              </div>
-            </div>
+    <div class="mainDiv">
+      <div class="childDiv">
+        <div class="img">
+          <img src="images/download.jpg" alt="img" />
         </div>
-        ))}
-  </div>
-  );
+        <div class="container">
+         <h4><b><a href="sasi.html">M SasiPreetham</a></b></h4>
+        </div>
+      </div>
+      <div class="childDiv">
+        <div class="img">
+          <img src="images/download.jpg" alt="img" />
+        </div>
+        <div class="container">
+          <h4><b><a href="karthik.html">Karthik P</a></b></h4>
+        </div>
+      </div>
+    </div>
+  )
+};
 
-}
 export default App;
