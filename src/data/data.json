@@ -1,0 +1,20 @@
+{
+	"details":[
+		{
+			"profile":{
+				"name":"Sreenu",
+				"role":"MEAN",
+				"phone":"9281279334",
+				"email":"xty@gmail.com"
+			}
+		},
+		{
+			"profile":{
+				"name":"sehwag",
+				"role":"MERN",
+				"phone":"9234628334",
+				"email":"acdb@gmail.com"
+		    }
+	   }
+	]
+}
