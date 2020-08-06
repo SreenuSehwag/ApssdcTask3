@@ -2,7 +2,7 @@ import React from 'react';
 // import logo from './logo.svg';
 import profileImage from './img/mysticker.png';
 import './App.css';
-import './resumeex.css';
+import './resume.css';
 
 function App() {
   return (
